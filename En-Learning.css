@@ -51,7 +51,7 @@ html{
 }
 
 .firstSlider{
-    background-image: url(Assets/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+    background-image: url(./Assets/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
     background-size: cover;
     margin: auto;
     border: .01rem solid transparent;
@@ -90,7 +90,7 @@ html{
     0 0 5px rgba(0, 0, 0, 0.5);
 }
 .aboutUs{
-    background-image: url(Assets/nordwood-themes-_sg8nXmpWDM-unsplash.jpg);
+    background-image: url(./Assets/nordwood-themes-_sg8nXmpWDM-unsplash.jpg);
     background-size: cover;
     width: 100%;
     height: 95rem;

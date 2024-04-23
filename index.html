@@ -6,18 +6,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="En-Learning.css">
     <title>https://En-learning.io/</title>
 </head>
 <body>
     <!--header start-->
     <header>
-        <div class="ContentHeader">
+        <div class="ContentHeader" id="home">
             <img src="./Assets/logo.png" alt="" id="logoEnLearning">
-            <h3 class="Endpoints">Inicio</h3>
-            <h3 class="Endpoints">Nosotros</h3>
-            <h3 class="Endpoints">Cursos</h3>
-            <h3 class="Endpoints">Contacto</h3>
+            <div class="EndpointsGeneral">
+                <a href="#home"> <h3 class="Endpoints">Inicio</h3></a>
+                <a href="#aboutUsId"><h3 class="Endpoints">Nosotros</h3></a>
+                <a href="#cursos&plataforms"><h3 class="Endpoints">Cursos</h3></a>
+            </div>
         </div>
     </header>
 
@@ -32,7 +36,7 @@
             <p>
                 Desde cualquier lugar
             </p>
-            <input type="button" value="Contactanos" id="buttonContacto">
+            <input type="button" value="Contáctanos" id="buttonContacto">
         </div>
 
         <!--Explication of advantages-->
@@ -51,7 +55,7 @@
                         <ul>
                             <li>Flexibilidad</li>
 
-                            <li>comodidad</li>
+                            <li>Comodidad</li>
 
                             <li>Atención Personalizada</li>
 
@@ -61,7 +65,7 @@
         </div>
 
         <!--About us-->
-        <div class="animated-background">
+        <div class="animated-background" id="aboutUsId">
         <div class="aboutus">
             <div id="contenedorAboutus">
                 <h1>¿Quienes somos?</h1>
@@ -75,10 +79,67 @@
         </div> 
     </div>
         
+
+    <!-- Curses -->
+    <div class= "curses" id="cursos&plataforms">
+        <div class="typeCursesAndplataform">
+            <h1>Cursos</h1>
+            <p>
+                &#8226  Clases Grupales (minimo 4 alumnos por Grupo): <br> 100/4 clases semanales
+            </p>
+
+            <p>
+                &#8226  Clases personales y asesorias: 130
+            </p>
+
+            <p>
+                Atención personalizada
+            </p>
+
+            <p>
+                &#8226  Cursos de Speaking: 100/clases
+            </p>
+        </div>
+        <div class="typeCursesAndplataform">
+            <h1>Plataformas a utilizar</h1>
+            <a href="">&#8226  Google Meet</a><br><br><br><br>
+
+            <a href="">&#8226  Zoom</a><br><br><br><br>
+
+            <a href="">&#8226  Classroom</a>
+        </div>
+    </div>
     </body>
 
     <footer>
-
+        <div class="footer" id="contact">
+            <img src="./Assets/instagram.png" alt="" style="background-color: white; border-radius: 25rem;">
+            <img src="./Assets/facebook.png" alt="" style="background-color: white; border-radius: 25rem;">
+            <img src="./Assets/twitter.png" alt="" style="background-color: white; border-radius: 25rem;">
+        </div>
+        <div class="copyRight">
+            <p>
+                Copyright &#169; Designed by En-Learnign
+            </p>
+        </div>
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Contact 
+
+ <div class="contact">
+
+ </div>
+-->

@@ -255,6 +255,7 @@ html{
 }
 
 .copyRight{
+    position:absolute;
     flex-direction: column;
     width: 100%;
     height: 7rem;

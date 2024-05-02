@@ -9,11 +9,13 @@ html{
 }
 
 .ContentHeader{
+    background-position: 50%;
     width: 100%;
     height: 8rem;  
     display: flex;
     background-color: black;
     color: white;
+
 }
 
 .ContentHeader #logoEnLearning{
@@ -236,11 +238,13 @@ html{
     text-align: center;
     width: 100%;
     height: 35rem;
-    background-color: #111111;
+    background-color: #807f7f;
 }
 .footer img{
     margin: 15rem 3rem;
     width: 6rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+    0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .footer img:hover{
@@ -268,3 +272,71 @@ html{
     font-style: normal; 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para pantallas de hasta 768px de ancho */
+@media (max-width: 450px) { 
+    .ContentHeader{
+        width: 100%;
+        height: 0;
+        background-color: transparent;
+    }
+
+    .ContentHeader .Endpoints{
+        display: none;
+    }
+    .ContentHeader #logoEnLearning{
+        margin: auto;
+    }
+    .firstSlider{
+        background-position: 75%;
+    }
+
+    .advantages{
+        background-position: 60%;
+    }
+    .advantages h1{
+        text-align: center;
+        font-size: 2.1rem;
+    }
+    .advantages p{
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .advantages #listVentajas{
+        margin: 4rem auto;
+    }
+    .contenedorAboutus{
+        
+    }
+
+}
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para pantallas entre 769px y 1024px de ancho */
+  }
+  
+  @media (min-width: 1025px) {
+    /* Estilos para pantallas de 1025px o más de ancho */
+  }
